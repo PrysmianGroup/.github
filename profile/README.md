@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="#">
-    ![alt text](https://github.com/PrysmianGroup/.github/blob/main/logo-prysmian-black.png?raw=true)
+    <img src="https://raw.githubusercontent.com/PrysmianGroup/.github/main/logo-prysmian-black.png" alt="Prysmian Group Logo">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
