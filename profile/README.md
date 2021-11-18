@@ -45,8 +45,14 @@
       <a href="#about-the-organization">About The Organization</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#organization structure">Organization Structure</a>
       <ul>
+        <li><a href="#repositories">Repositories</a></li>
+        <ul>
+            <li><a href="#creatingrepositories">Creating Repositories</a></li>
+            <li><a href="#deletingrepositories">Deleting Repositories</a></li>
+        </ul>
+        <li><a href="#branchingstrategies">Branching Strategies</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
@@ -66,13 +72,31 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- ORGANIZATION STRUCTURE -->
+## Organization Structure
 
-[Placeholder for instructions on creating a repo]
+[General instructions on the structure]
 
+### Repositories
+
+[General instructions on Repositories]
+
+#### Creating Repositories
 * [Naming Convention]
-* [Structure]
+* [Inclusion into Projects]
+* [Permissions]
+* [Teams]
+
+#### Deleting Repositories
+* [When it's possible]
+* [When to notify]
+
+### Branching Strategies
+* [Preferred Method for individuals]
+* [Preferred Method for small teams]
+* [Preferred Method for large teams]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Prerequisites
 
