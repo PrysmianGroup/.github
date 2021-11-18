@@ -45,14 +45,14 @@
       <a href="#about-the-organization">About The Organization</a>
     </li>
     <li>
-      <a href="#organization structure">Organization Structure</a>
+      <a href="#organization-structure">Organization Structure</a>
       <ul>
         <li><a href="#repositories">Repositories</a></li>
         <ul>
-            <li><a href="#creatingrepositories">Creating Repositories</a></li>
-            <li><a href="#deletingrepositories">Deleting Repositories</a></li>
+            <li><a href="#creating-repositories">Creating Repositories</a></li>
+            <li><a href="#deleting-repositories">Deleting Repositories</a></li>
         </ul>
-        <li><a href="#branchingstrategies">Branching Strategies</a></li>
+        <li><a href="#branching-strategies">Branching Strategies</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
