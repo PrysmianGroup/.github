@@ -31,7 +31,7 @@
   <h3 align="center">Prysmian Group Organization</h3>
 
   <p align="center">
-    Global and Regional repositories supporting the greater Prysmian Group technologies.
+    Global and Regional repositories supporting Prysmian Group software and technologies.
   </p>
 </div>
 
@@ -41,109 +41,52 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-organization">About The Organization</a>
-    </li>
-    <li>
-      <a href="#organization-structure">Organization Structure</a>
-      <ul>
-        <li><a href="#repositories">Repositories</a></li>
-        <ul>
-            <li><a href="#creating-repositories">Creating Repositories</a></li>
-            <li><a href="#deleting-repositories">Deleting Repositories</a></li>
-        </ul>
-        <li><a href="#branching-strategies">Branching Strategies</a></li>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#creatingrepositories">Creating Repositories</a></li>
+    <li><a href="#deletingrepositories">Deleting Repositories</a></li>
+    <li><a href="#branchingstrategies">Branching Strategies</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#links">Links</a></li>
   </ol>
 </details>
 
+### Creating Repositories
+**Naming Convention**
+
+ `[Location]\_[Project](\_ArchiveMMYYYY)`
+
+ Archive Year is optional, but is provided as a means to archive old repositories
+ no longer receiving updates, but are related newer repos.
+
+ Examples of similar repos that vary by location:
+
+ ```
+Claremont_Wareflow
+Slatina_Wareflow
+Sorocaba_Wareflow
+```
+
+Examples of an old Claremont Wareflow repo that is no longer receiving updates
+but should be archived.
+
+ ```
+ Claremont_Wareflow_062019
+ ```
+
+**Projects**<br />
+* Any technology that exists in more than one location shall be related by the
+ creation of a shared Project.
+* Read permissions should be granted to all teams for all repos within a related
+technology project.
 
 
-<!-- ABOUT THE ORGANIZATION -->
-## About the Organization
-
-[General copy about the Prysmian Group organization]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ORGANIZATION STRUCTURE -->
-## Organization Structure
-
-[General instructions on the structure]
-
-### Repositories
-
-[General instructions on Repositories]
-
-#### Creating Repositories
-* [Naming Convention]
-* [Inclusion into Projects]
-* [Permissions]
-* [Teams]
-
-#### Deleting Repositories
-* [When it's possible]
-* [When to notify]
-
-### Branching Strategies
-* [Preferred Method for individuals]
-* [Preferred Method for small teams]
-* [Preferred Method for large teams]
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-1. Create your repository.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - william.willett@prysmiangroup.com
+Organization Admin - Biagio Calo - Biagio.Calo.ex@prysmiangroup.com<br />
+README creator - William Willett - William.Willett@prysmiangroup.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -152,14 +95,14 @@ Your Name - william.willett@prysmiangroup.com
 <!-- LINKS -->
 ## Links
 
-* [Choose an Open Source License](https://choosealicense.com)
+* [Git Installation](https://github.com/git-guides/install-git)
+* [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+* [Team Branching Strategies](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Markdown Guide (README files)](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [GitKraken GUI Client](https://www.gitkraken.com/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
