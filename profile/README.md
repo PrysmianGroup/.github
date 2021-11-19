@@ -42,14 +42,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#creatingrepositories">Creating Repositories</a></li>
-    <li><a href="#deletingrepositories">Deleting Repositories</a></li>
-    <li><a href="#branchingstrategies">Branching Strategies</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#links">Links</a></li>
   </ol>
 </details>
 
-### Creating Repositories
+## Creating Repositories
 **Naming Convention**
 
  `[Location]\_[Project](\_ArchiveMMYYYY)`
