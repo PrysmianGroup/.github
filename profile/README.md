@@ -52,10 +52,7 @@
 
  `[Location]\_[Project](\_ArchiveMMYYYY)`
 
- Archive Year is optional, but is provided as a means to archive old repositories
- no longer receiving updates, but are related newer repos.
-
- Examples of similar repos that vary by location:
+Examples of similar repos that vary by location:
 
  ```
 Claremont_Wareflow
@@ -63,12 +60,15 @@ Slatina_Wareflow
 Sorocaba_Wareflow
 ```
 
-Examples of an old Claremont Wareflow repo that is no longer receiving updates
-but should be archived.
+Example of an old Claremont Wareflow repo that is no longer receiving updates
+and should be archived.
 
  ```
  Claremont_Wareflow_062019
  ```
+
+ Archive Year is optional, but is provided as a means to archive old repositories
+ no longer receiving updates, but are related to an active repo.
 
 **Projects**<br />
 * Any technology that exists in more than one location shall be related by the
