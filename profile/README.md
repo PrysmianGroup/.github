@@ -47,10 +47,12 @@
   </ol>
 </details>
 
-| :exclamation:  This is very important   |
-|-----------------------------------------|
-
 ## Creating Repositories
+
+| :exclamation:  To keep our GitHub organization structured, please respect the following rules   |
+|-------------------------------------------------------------------------------------------------|
+
+
 **Naming Convention**
 
  `[Location]\_[Project](\_ArchiveMMYYYY)`
