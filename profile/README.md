@@ -53,7 +53,7 @@
 |-------------------------------------------------------------------------------------------------|
 
 
-**Naming Convention**
+#### Naming Convention
 
  `[Location]\_[Project](\_ArchiveMMYYYY)`
 
@@ -75,7 +75,7 @@ and should be archived.
  Archive Year is optional, but is provided as a means to archive old repositories
  no longer receiving updates, but are related to an active repo.
 
-**Projects**<br />
+#### Projects
 * Any technology that exists in more than one location shall be related by the
  creation of a shared Project.
 * Read permissions should be granted to all teams for all repos within a related
