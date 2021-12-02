@@ -44,7 +44,9 @@
     <li><a href="#creatingrepositories">Creating Repositories</a>
       <ol>
           <li><a href="#limitations">Limitations</a></li>
-    <li><a href="#naming-convention">Naming Convention</a></li>
+          <li><a href="#naming-convention">Naming Convention</a></li>
+          <li><a href="#description">Description</a></li>
+          <li><a href="#tagging">Tagging</a></li>
       </ol>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -104,6 +106,15 @@ and should be archived.
  CLA_DrawHMI_TowerTypeE
  CLA_DrawHMI_TowerTypeF
   ```
+  
+#### Description
+
+Every project should have at least a one line description of the project to explain
+the reason for the projects existance.
+
+#### Tagging
+
+Tagging is encouraged but not required.
 
 #### Projects
 * Any technology that exists in more than one location shall be related by the
