@@ -41,7 +41,12 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#creatingrepositories">Creating Repositories</a></li>
+    <li><a href="#creatingrepositories">Creating Repositories</a>
+      <ol>
+          <li><a href="#limitations">Limitations</a></li>
+    <li><a href="#naming-convention">Naming Convention</a></li>
+      </ol>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#links">Links</a></li>
   </ol>
