@@ -99,13 +99,13 @@ and should be archived.
  Example of related repos within the same plant supporting the same technology.
  
  ```
- CLA_DrawHMI_TowerTypeA
- CLA_DrawHMI_TowerTypeB
- CLA_DrawHMI_TowerTypeC
- CLA_DrawHMI_TowerTypeD
- CLA_DrawHMI_TowerTypeE
- CLA_DrawHMI_TowerTypeF
-  ```
+ CLA_DrawTowerPLC_TypeA
+ CLA_DrawTowerPLC_TypeB
+ CLA_DrawTowerPLC_TypeC
+ CLA_DrawTowerPLC_TypeD
+ CLA_DrawTowerPLC_TypeE
+ CLA_DrawTowerPLC_TypeF
+ ```
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 #### Description
@@ -115,7 +115,7 @@ the reason for the projects existance.
 
 #### Tagging
 
-Tagging is encouraged but not required.
+Tagging is encouraged but not required. 
 
 #### Projects
 * Any technology that exists in more than one location shall be related by the
