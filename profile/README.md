@@ -28,10 +28,10 @@
     <img src="https://raw.githubusercontent.com/PrysmianGroup/.github/main/logo-prysmian-black.png" alt="Prysmian Group Logo">
   </a>
 
-  <h3 align="center">Prysmian Group Organization</h3>
+  <h3 align="center">Prysmian Group Fiber</h3>
 
   <p align="center">
-    Global and Regional repositories supporting Prysmian Group software and technologies.
+    Supporting Prysmian Group's fiber business software and technologies.
   </p>
 </div>
 
