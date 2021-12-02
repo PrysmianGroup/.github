@@ -106,6 +106,7 @@ and should be archived.
  CLA_DrawHMI_TowerTypeE
  CLA_DrawHMI_TowerTypeF
   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
   
 #### Description
 
