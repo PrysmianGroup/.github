@@ -46,7 +46,7 @@
           <li><a href="#limitations">Limitations</a></li>
           <li><a href="#naming-convention">Naming Convention</a></li>
           <li><a href="#description">Description</a></li>
-          <li><a href="#tagging">Tagging</a></li>
+          <li><a href="#topics">Topics</a></li>
       </ol>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -113,9 +113,13 @@ and should be archived.
 Every project should have at least a one line description of the project to explain
 the reason for the projects existance.
 
-#### Tagging
+#### Topics
 
-Tagging is encouraged but not required. 
+Adding topics to a repository is encouraged but not required. Topics allows our team to quickly search for related repositories. A single repository can be associated with many different topics.
+
+To find all repositories that are tagged with both the "bench" and "measurements" topics you would simply search for:
+ 
+`org:PrysmianGroup topic:bench topic:measurements`
 
 #### Projects
 * Any technology that exists in more than one location shall be related by the
