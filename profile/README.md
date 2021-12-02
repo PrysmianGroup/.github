@@ -52,6 +52,11 @@
 | :exclamation:  To keep our GitHub organization structured, please respect the following rules   |
 |-------------------------------------------------------------------------------------------------|
 
+#### Limitations
+
+Repositories created in the PrysmainGroup organization are for projects
+directly related to fiber business. Projects outside this scope, including global initiatives, should
+be stored elsewhere.
 
 #### Naming Convention
 
@@ -59,8 +64,17 @@
 
  `[] = Required`<br />
  `() = Optional`
+
+ `BRA = Brazil`<br />
+ `CLA = Claremont`<br />
+ `EIN = Eindhoven`<br />
+ `ROM = Romainia`<br />
+ `SLA = Slatina`<br />
+ `SOR = Sorocaba`<br />
+
  
-Examples of similar repos that vary by location, only using the required properties:
+ 
+Below is an Example of similar repos that vary by location, only using the required conventions:
 
 ```
 CLA_Wareflow
