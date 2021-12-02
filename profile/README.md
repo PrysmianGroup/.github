@@ -55,25 +55,36 @@
 
 #### Naming Convention
 
- `[Location]\_[Project](\_ArchiveMMYYYY)`
+ `[3 digit Plant Code]_[Technology](_SubTech)(_ArchiveYYYY)`
 
-Examples of similar repos that vary by location:
+ `[] = Required`<br />
+ `() = Optional`
+ 
+Examples of similar repos that vary by location, only using the required properties:
 
- ```
-Claremont_Wareflow
-Slatina_Wareflow
-Sorocaba_Wareflow
+```
+CLA_Wareflow
+SLA_Wareflow
+SOR_Wareflow
 ```
 
 Example of an old Claremont Wareflow repo that is no longer receiving updates
 and should be archived.
 
  ```
- Claremont_Wareflow_062019
+ CLA_Wareflow_Archive2019
  ```
 
- Archive Year is optional, but is provided as a means to archive old repositories
- no longer receiving updates, but are related to an active repo.
+ Example of related repos within the same plant supporting the same technology.
+ 
+ ```
+ CLA_DrawHMI_TowerTypeA
+ CLA_DrawHMI_TowerTypeB
+ CLA_DrawHMI_TowerTypeC
+ CLA_DrawHMI_TowerTypeD
+ CLA_DrawHMI_TowerTypeE
+ CLA_DrawHMI_TowerTypeF
+  ```
 
 #### Projects
 * Any technology that exists in more than one location shall be related by the
