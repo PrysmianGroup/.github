@@ -67,21 +67,56 @@ be stored elsewhere.
 
 #### Naming Convention
 
- `[3 digit Plant Code]_[Technology](_SubTech)(_ArchiveYYYY)`
-
  ```
- [] = Required
- () = Optional
-  ```
+ 3 Digit Plant Code_Technology_[SubTech]_[ArchiveYYYY]
  
+ [] = Optional
  ```
- BRA = Brazil
- CLA = Claremont
- EIN = Eindhoven
- ROM = Romainia
- SLA = Slatina
+  <table border="1" cellpadding="0" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="7">Examples</th>
+    </tr>
+  <tr>
+    <td>[3 digit Plant Code]</td><td>_</td><td>[Technology]</td><td>_</td><td>(TechSub)</td><td>_</td><td>(ArchiveYYYY)</td>
+  </tr>
+  <tr>
+    <td colspan="7">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+ BRA = Brazil<br />
+ CLA = Claremont<br />
+ EIN = Eindhoven<br />
+ ROM = Romania<br />
+ SLA = Slatina<br />
  SOR = Sorocaba
- ```
+    </td>
+    <td>
+    </td>
+    <td>
+      Wareflow<br />
+      FTIR<br />
+      LUTS
+    </td>
+    <td>
+    </td>
+    <td>
+      Machine Type<br />
+      Manufacturer<br />
+      Inteface Software<br />
+      OS Version<br />
+    </td>
+    <td>
+    </td>
+    <td>
+      Archive2018<br />
+      Archive2019<br />
+      Archive2020
+    </td>
+      
+  </tr>
+</table>
  
  
 Below is an Example of similar repos that vary by location, only using the required conventions:
@@ -124,7 +159,9 @@ Adding topics to a repository is encouraged but not required. Topics allows our 
 
 Example: To find all repositories that are tagged with both the "bench" and "measurements" topics you would simply search for:
  
-`org:PrysmianGroup topic:bench topic:measurements`
+```
+org:PrysmianGroup topic:bench topic:measurements
+```
 
 #### Projects
 * Any technology that exists in more than one location shall be related by the
