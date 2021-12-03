@@ -70,17 +70,17 @@ be stored elsewhere.
  `[3 digit Plant Code]_[Technology](_SubTech)(_ArchiveYYYY)`
 
  ```
- [] = Required<br />
+ [] = Required
  () = Optional
   ```
  
  ```
- BRA = Brazil<br />
- CLA = Claremont<br />
- EIN = Eindhoven<br />
- ROM = Romainia<br />
- SLA = Slatina<br />
- SOR = Sorocaba<br />
+ BRA = Brazil
+ CLA = Claremont
+ EIN = Eindhoven
+ ROM = Romainia
+ SLA = Slatina
+ SOR = Sorocaba
  ```
  
  
