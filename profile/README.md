@@ -172,16 +172,28 @@ org:PrysmianGroup topic:bench topic:measurements
 technology project.
 
 ## Migrate Existing Repositories
+Below is a cheat sheet for migrating repos into the PrymaianGroup organization. If you'd like a more detailed explanation, please click <a href="https://www.atlassian.com/git/tutorials/git-move-repository">here</a>.
 1. Create a new empty repo in the PrysmianGroup organization, see <a href="#naming-convention">guidelines</a> above.
+
+2. Create a new folder to contain the repo, in it's new location.
+  
+3. Make sure you're in the parent folder of the folder that was created in step 2 before proceeding.
 ```
-git clone --mirror <url of repo to be migrated> new-folder-for-new-repo
+git clone --mirror <url of repo to be migrated> <new-local-folder-for-new-repo>
 ```
+4. Navigate to the new-local-folder-for-new-repo
 ```
-git remote rm <origin-name>
+cd <new-local-folder-for-new-repo>
 ```
+5. Remove the original origin remote
+```
+git remote rm origin
+```
+6. Add the new origin remote
 ```
 git remote add origin <url to NEW repo>
 ```
+7. Push the repository (including all branches and tags) to the new repo.
 ```
 git push origin --all
 git push --tags
