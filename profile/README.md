@@ -182,7 +182,7 @@ Below is a cheat sheet for migrating repos into the PrymaianGroup organization. 
 ```
 git clone --mirror <url of repo to be migrated> <new-local-folder-for-new-repo>
 ```
-4. Navigate to the new-local-folder-for-new-repo
+4. Navigate into the new-local-folder-for-new-repo
 ```
 cd <new-local-folder-for-new-repo>
 ```
