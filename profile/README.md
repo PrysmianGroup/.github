@@ -41,13 +41,15 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#creatingrepositories">Creating Repositories</a>
+    <li><a href="#creatingrepositories">Creating New Repositories</a>
       <ol>
           <li><a href="#limitations">Limitations</a></li>
           <li><a href="#naming-convention">Naming Convention</a></li>
           <li><a href="#description">Description</a></li>
           <li><a href="#topics">Topics</a></li>
       </ol>
+    </li>
+    <li><a href="#migraterepositories">Migrate Existing Repositories</a>
     </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#links">Links</a></li>
@@ -169,8 +171,22 @@ org:PrysmianGroup topic:bench topic:measurements
 * Read permissions should be granted to all teams for all repos within a related
 technology project.
 
-
-
+## Migrate Existing Repositories
+1. Create a new empty repo in the PrysmianGroup organization, see <a href="#naming-convention">guidelines</a> above.
+```
+git clone --mirror <url of repo to be migrated> new-folder-for-new-repo
+```
+```
+git remote rm <origin-name>
+```
+```
+git remote add origin <url to NEW repo>
+```
+```
+git push origin --all
+git push --tags
+```
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
