@@ -190,7 +190,7 @@ cd <new-local-folder-for-new-repo>
 ```
 git remote rm origin
 ```
-6. Add the new origin remote
+6. Add the new origin remote using th URL of the repo created in step #1. 
 ```
 git remote add origin <url to NEW repo>
 ```
