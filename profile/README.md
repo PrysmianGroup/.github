@@ -41,7 +41,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#creatingrepositories">Creating New Repositories</a>
+    <li><a href="#creating-repositories">Creating New Repositories</a>
       <ol>
           <li><a href="#limitations">Limitations</a></li>
           <li><a href="#naming-convention">Naming Convention</a></li>
@@ -49,7 +49,7 @@
           <li><a href="#topics">Topics</a></li>
       </ol>
     </li>
-    <li><a href="#migraterepositories">Migrate Existing Repositories</a>
+    <li><a href="#migrate-existing-repositories">Migrate Existing Repositories</a>
     </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#links">Links</a></li>
