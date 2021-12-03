@@ -68,7 +68,7 @@ be stored elsewhere.
 #### Naming Convention
 
  ```
- 3 Digit Plant Code_Technology_[TechSub]_[ArchiveYYYY]
+ PlantCode_Technology_[TechSub]_[ArchiveYYYY]
  
  [] = Optional
  ```
@@ -78,7 +78,7 @@ be stored elsewhere.
       <th colspan="7">Examples</th>
     </tr>
   <tr>
-    <td>3 digit Plant Code</td><td>_</td><td>Technology</td><td>_</td><td>[TechSub]</td><td>_</td><td>[ArchiveYYYY]</td>
+    <td>PlantCode</td><td>_</td><td>Technology</td><td>_</td><td>[TechSub]</td><td>_</td><td>[ArchiveYYYY]</td>
   </tr>
   <tr>
     <td colspan="7">&nbsp;</td>
