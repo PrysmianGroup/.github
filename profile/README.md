@@ -69,16 +69,19 @@ be stored elsewhere.
 
  `[3 digit Plant Code]_[Technology](_SubTech)(_ArchiveYYYY)`
 
- `[] = Required`<br />
- `() = Optional`
-
- `BRA = Brazil`<br />
- `CLA = Claremont`<br />
- `EIN = Eindhoven`<br />
- `ROM = Romainia`<br />
- `SLA = Slatina`<br />
- `SOR = Sorocaba`<br />
-
+ ```
+ [] = Required<br />
+ () = Optional
+  ```
+ 
+ ```
+ BRA = Brazil<br />
+ CLA = Claremont<br />
+ EIN = Eindhoven<br />
+ ROM = Romainia<br />
+ SLA = Slatina<br />
+ SOR = Sorocaba<br />
+ ```
  
  
 Below is an Example of similar repos that vary by location, only using the required conventions:
@@ -111,13 +114,15 @@ and should be archived.
 #### Description
 
 Every project should have at least a one line description of the project to explain
-the reason for the projects existance.
+the reason for the project's existance.
 
 #### Topics
 
 Adding topics to a repository is encouraged but not required. Topics allows our team to quickly search for related repositories. A single repository can be associated with many different topics.
 
-To find all repositories that are tagged with both the "bench" and "measurements" topics you would simply search for:
+<a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics" target="_blank">Topics Documentation</a><br />
+
+Example: To find all repositories that are tagged with both the "bench" and "measurements" topics you would simply search for:
  
 `org:PrysmianGroup topic:bench topic:measurements`
 
