@@ -175,9 +175,10 @@ technology project.
 Below is a cheat sheet for migrating repos into the PrymaianGroup organization. If you'd like a more detailed explanation, please click <a href="https://www.atlassian.com/git/tutorials/git-move-repository">here</a>.
 1. Create a new empty repo in the PrysmianGroup organization, see <a href="#naming-convention">guidelines</a> above.
 
-2. Create a new folder to contain the repo, in it's new location.
+2. Create a new local folder for cloning the new repo.
   
-3. Make sure you're in the parent folder of the folder that was created in step 2 before proceeding.
+3. Clone the repo to be migrated into the new folder with the --mirror flag will make an
+  exact copy, including all branches and tags. (Make sure you're in the parent of the folder that was created in step 2 before proceeding).
 ```
 git clone --mirror <url of repo to be migrated> <new-local-folder-for-new-repo>
 ```
