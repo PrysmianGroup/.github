@@ -179,7 +179,7 @@ Below is a cheat sheet for migrating repos into the PrymaianGroup organization. 
 3. Clone the repo to be migrated into the new folder with the command below. (The --mirror flag will make an
   exact copy, including all branches and tags. Make sure you're in the parent of the folder that was created in step 2 before proceeding).
 ```
-git clone --mirror <url of repo to be migrated> <new-local-folder-for-new-repo>
+git clone --mirror <url of repo to be migrated> <new-local-folder>
 ```
 4. Navigate into your cloned repo.
 
