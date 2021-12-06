@@ -58,8 +58,8 @@
 
 ## Creating Repositories
 
-| :exclamation:  To keep our GitHub organization structured, please respect the following rules   |
-|-------------------------------------------------------------------------------------------------|
+| :exclamation:  To keep our GitHub organization structured, please respect the following guidelines   |
+|------------------------------------------------------------------------------------------------------|
 
 #### Scope
 
