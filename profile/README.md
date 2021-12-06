@@ -43,7 +43,7 @@
   <ol>
     <li><a href="#creating-repositories">Creating New Repositories</a>
       <ol>
-          <li><a href="#limitations">Limitations</a></li>
+          <li><a href="#scope">Scope</a></li>
           <li><a href="#naming-convention">Naming Convention</a></li>
           <li><a href="#description">Description</a></li>
           <li><a href="#topics">Topics</a></li>
@@ -61,7 +61,7 @@
 | :exclamation:  To keep our GitHub organization structured, please respect the following rules   |
 |-------------------------------------------------------------------------------------------------|
 
-#### Limitations
+#### Scope
 
 Repositories created in the PrysmainGroup organization are for projects
 directly related to fiber business. Projects outside this scope, including global initiatives, should
