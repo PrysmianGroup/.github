@@ -159,7 +159,7 @@ Adding topics to a repository is encouraged but not required. Topics allows our 
 
 <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics" target="_blank">Topics Documentation</a><br />
 
-Example: To find all repositories that are tagged with both the "bench" and "measurements" topics you would simply search for:
+Example: To find all repositories that are tagged with both the "bench" and "measurements" topics you would search for:
  
 ```
 org:PrysmianGroup topic:bench topic:measurements
@@ -175,17 +175,15 @@ technology project.
 Below is a cheat sheet for migrating repos into the PrymaianGroup organization. If you'd like a more detailed explanation, please click <a href="https://www.atlassian.com/git/tutorials/git-move-repository">here</a>.
 1. Create a new empty repo in the PrysmianGroup organization, see <a href="#naming-convention">guidelines</a> above.
 
-2. Create a new local folder for cloning the new repo.
+2. Create a new local folder that will contain the new repo.
   
-3. Clone the repo to be migrated into the new folder with the --mirror flag will make an
-  exact copy, including all branches and tags. (Make sure you're in the parent of the folder that was created in step 2 before proceeding).
+3. Clone the repo to be migrated into the new folder with the command below. (The --mirror flag will make an
+  exact copy, including all branches and tags. Make sure you're in the parent of the folder that was created in step 2 before proceeding).
 ```
 git clone --mirror <url of repo to be migrated> <new-local-folder-for-new-repo>
 ```
-4. Navigate into the new-local-folder-for-new-repo
-```
-cd <new-local-folder-for-new-repo>
-```
+4. Navigate into your cloned repo.
+
 5. Remove the original origin remote
 ```
 git remote rm origin
