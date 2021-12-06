@@ -87,12 +87,12 @@ be stored elsewhere.
   </tr>
   <tr>
     <td>
- BRA = Brazil<br />
+ BAT = Battipaglia<br />
  CLA = Claremont<br />
+ DOU = Douvrin<br />
  EIN = Eindhoven<br />
- ROM = Romania<br />
  SLA = Slatina<br />
- SOR = Sorocaba
+ SOR = Sorocaba<br />
     </td>
     <td>
     </td>
