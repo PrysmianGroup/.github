@@ -150,12 +150,11 @@ and should be archived.
   
 #### Description
 
-Every project should have at least a one line description of the project to explain
-the reason for the project's existance.
+Every project should have at least a one line description to provide context.
 
 #### Topics
 
-Adding topics to a repository is encouraged but not required. Topics allows our team to quickly search for related repositories. A single repository can be associated with many different topics.
+Adding topics to a repository is encouraged but not required. Topics allows our team to quickly search for related repositories. A single repository can be associated with many topics.
 
 <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics" target="_blank">Topics Documentation</a><br />
 
