@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/PrysmianGroup/.github/main/logo-prysmian-black.png" alt="Prysmian Group Logo">
+    <img src="https://raw.githubusercontent.com/PrysmianGroup/.github/main/README/.github/logo-prysmian-black.png" alt="Prysmian Group Logo">
   </a>
 
   <h3 align="center">Prysmian Group Fiber</h3>
