@@ -1,0 +1,1 @@
+This folder exists to store public images for README's in this projects repository. Currently the corporate firewall blocks direct linking to binary files in Github unless theyr'e in the .github repository.
