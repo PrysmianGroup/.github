@@ -83,7 +83,7 @@ Use an underscore "_" as a seperator between the sections as defined below:
       <th colspan="7">Examples</th>
     </tr>
   <tr>
-    <td>PlantCode</td><td>_</td><td>Technology</td><td>_</td><td>[TechSub]</td><td>_</td><td>[ArchiveYYYY]</td>
+    <td>plantcode</td><td>_</td><td>technology</td><td>_</td><td>[techsub]</td><td>_</td><td>[archiveYYYY]</td>
   </tr>
   <tr>
     <td colspan="7">&nbsp;</td>
