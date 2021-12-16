@@ -69,8 +69,11 @@ be stored elsewhere.
 
 #### Naming Convention
 
- ```
- PlantCode_Technology_[TechSub]_[ArchiveYYYY]
+A repository name should only use lower case characters. This speeds up the work flow for those using the Git CLI.
+Use an underscore "_" as a seperator between the sections as defined below:
+
+```
+ plantcode_technology_[techsub]_[archiveYYYY]
  
  [] = Optional
  ```
@@ -87,34 +90,34 @@ be stored elsewhere.
   </tr>
   <tr>
     <td>
- BAT = Battipaglia<br />
- CLA = Claremont<br />
- DOU = Douvrin<br />
- EIN = Eindhoven<br />
- SLA = Slatina<br />
- SOR = Sorocaba<br />
+ bat = Battipaglia<br />
+ cla = Claremont<br />
+ dou = Douvrin<br />
+ ein = Eindhoven<br />
+ sla = Slatina<br />
+ sor = Sorocaba<br />
     </td>
     <td>
     </td>
     <td>
-      Wareflow<br />
-      FTIR<br />
-      LUTS
+      wareflow<br />
+      ftir<br />
+      luts
     </td>
     <td>
     </td>
     <td>
-      Machine Type<br />
-      Manufacturer<br />
-      Inteface Software<br />
-      OS Version<br />
+      machine type<br />
+      manufacturer<br />
+      inteface software<br />
+      os version<br />
     </td>
     <td>
     </td>
     <td>
-      Archive2018<br />
-      Archive2019<br />
-      Archive2020
+      archive2018<br />
+      archive2019<br />
+      archive2020
     </td>
       
   </tr>
@@ -124,27 +127,27 @@ be stored elsewhere.
 Below is an Example of similar repos that vary by location, only using the required conventions:
 
 ```
-CLA_Wareflow
-SLA_Wareflow
-SOR_Wareflow
+cla_wareflow
+sla_wareflow
+sor_wareflow
 ```
 
 Example of an old Claremont Wareflow repo that is no longer receiving updates
 and should be archived.
 
  ```
- CLA_Wareflow_Archive2019
+ cla_wareflow_archive2019
  ```
 
  Example of related repos within the same plant supporting the same technology.
  
  ```
- CLA_DrawTowerPLC_TypeA
- CLA_DrawTowerPLC_TypeB
- CLA_DrawTowerPLC_TypeC
- CLA_DrawTowerPLC_TypeD
- CLA_DrawTowerPLC_TypeE
- CLA_DrawTowerPLC_TypeF
+ cla_drawtowerplc_typea
+ cla_drawtowerplc_typeb
+ cla_drawtowerplc_typec
+ cla_drawtowerplc_typed
+ cla_drawtowerplc_typee
+ cla_drawtowerplc_typef
  ```
 <p align="right">(<a href="#top">back to top</a>)</p>
   
