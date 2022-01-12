@@ -115,11 +115,8 @@ Use an underscore "_" as a seperator between the sections as defined below:
     <td>
     </td>
     <td>
-      archive2018<br />
-      archive2019<br />
-      archive2020
+      archive2022<br />
     </td>
-      
   </tr>
 </table>
  
@@ -133,10 +130,10 @@ sor_wareflow
 ```
 
 Example of an old Claremont Wareflow repo that is no longer receiving updates
-and should be archived.
+and should be archived.<br />2022 represents the year the repo was archived, not the year it was last updated.
 
  ```
- cla_wareflow_archive2019
+ cla_wareflow_archive2022
  ```
 
  Example of related repos within the same plant supporting the same technology.
