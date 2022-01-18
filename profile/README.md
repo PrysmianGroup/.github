@@ -200,17 +200,19 @@ git push --tags
 8. Sign on to Github using two browser sessions and manually copy the "About" 
    section from the source repo to the new migrated repo. Update the context as needed.
   
-9. Check for releases in the source repo. If they exist, they will need to be manually re-created in the migrated repo.
-  
+9. Check for releases in the source repo. If they exist, they will need to be manually re-created in the migrated repo.	
+	
 10. Copy the repo "Settings" from the source repo into the new migrated repo. Pay special attention to the following:
 	* "Collaborators & Teams": Assign similar permissions in the new organization.
 	* "Notifications": Make sure any email notification setups are copied over.
-  
-11. Compare the two repos. Make sure they contain the same commits, branches, tags, and meta data.
 
-12. If the newly migrated repo is for historical reference only, now is the time to update the readme.md and archive the repo.
+11. Make sure the default repo is set correctly. If necessary, go to Settings=>Branches and change the default repo.
 
-13. If the source repo will no longer be used, you may:
+12. Compare the two repos. Make sure they contain the same commits, branches, tags, and meta data.
+
+13. If the newly migrated repo is for historical reference only, now is the time to update the readme.md and archive the repo.
+
+14. If the source repo will no longer be used, you may:
 	* Archive the repo (If necessary, update the readme.md BEFORE archiving)
 	* Delete the repo
   
